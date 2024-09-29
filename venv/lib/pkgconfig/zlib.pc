@@ -1,0 +1,13 @@
+prefix=/Users/Techie/Documents/Langchain-projects/conversational-chatbot/venv
+exec_prefix=/Users/Techie/Documents/Langchain-projects/conversational-chatbot/venv
+libdir=/Users/Techie/Documents/Langchain-projects/conversational-chatbot/venv/lib
+sharedlibdir=/Users/Techie/Documents/Langchain-projects/conversational-chatbot/venv/lib
+includedir=/Users/Techie/Documents/Langchain-projects/conversational-chatbot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
